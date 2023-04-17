@@ -1,0 +1,14 @@
+### access postgres inside docker
+docker exec -it postgres-R4w8 psql -U postgres
+
+### restore postgres inside docker
+cat 'dump file' | docker exec -i 'container-name' psql -U 'postgres username' -d 'dbname'
+
+### run posgres on docker (if no need to run on specific network, leave out the network tag)
+docker run -p 5432:5432 -d -e POSTGRES_PASSWORD='postgres password' --network='network name' --name 'container name' postgres 
+
+### run padmin on docker (if no need to run on specific network, leave out the network tag)
+docker run -p 8001:80 -e 'PGADMIN_DEFAULT_EMAIL=user-email' -e 'PGADMIN_DEFAULT_PASSWORD=user-password' --network='network name' --name pgadmin -d dpage/pgadmin4
+
+## open terminal inside a pod
+kubectl exec --stdin --tty -n 'namespace' 'pod name' -- bash
