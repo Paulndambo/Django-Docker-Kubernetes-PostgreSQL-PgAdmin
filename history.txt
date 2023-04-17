@@ -1,0 +1,606 @@
+    1  sudo nano /etc/paths
+    2  which python
+    3  ls
+    4  python3
+    5  python --version
+    6  sudo nano /etc/paths
+    7  ls
+    8  ls -a
+    9  which python
+   10  python3
+   11  brew
+   12  ^[[200~/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"~
+   13  ^[[200~/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   14  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   15  brew
+   16  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   17  python3
+   18  ls
+   19  python
+   20  pip install ipython
+   21  pip2 install ipython
+   22  python3
+   23  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   24  brew install --cask iterm2
+   25  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+   26  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+   27  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+   28  brew install --cask iterm2
+   29  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+   30  echo $ZSH
+   31  unset $ZSH
+   32  unset ZSH
+   33  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+   34  ls -a
+   35  printenv
+   36  clear
+   37  ls -l /usr/local/bin/python*
+   38  ls -s -f /usr/local/bin/python3.10 /usr/local/bin/python
+   39  which python
+   40  ls -s -f /usr/local/bin/python3.10 /usr/bin/python
+   41  python --version
+   42  ln -s -f /usr/local/bin/python3.10 /usr/bin/python
+   43  ln -s -f /usr/local/bin/python3.10 /usr/bin/local/python
+   44  sudo ln -s -f /usr/local/bin/python3.10 /usr/bin/python
+   45  cd desktop
+   46  cd Click2Sure
+   47  cd ../
+   48  brew install zplug
+   49  cd desktop
+   50  cd Click2Sure
+   51  cd ../
+   52  code .zshrc
+   53  source ~/.zshrc
+   54  brew install git
+   55  clear
+   56  cd desktop
+   57  ls
+   58  mkdir Click2Sure
+   59  cd click2sure
+   60  ls
+   61  mkdir NUTUN
+   62  mkdir NDA
+   63  mkdir GETSURE
+   64  mkdir LEWIS
+   65  mkdir MASSMART
+   66  cd nutun
+   67  mkdir backend
+   68  cd backend
+   69  ls -a
+   70  git clone git@gitlab.com:click2sure/v-1/tenants/nutuncover/c2s-api.git .
+   71  git clone git@gitlab.com:click2sure/v-1/tenants/nutuncover/c2s-api.git .
+   72  git branch
+   73  git fetch origin
+   74  git branch
+   75  git checkout develop
+   76  git checkout feature/members-onboarding-api
+   77  ls
+   78  code .
+   79  cd ..
+   80  cd ...
+   81  cd ../NDA
+   82  ls
+   83  mkdir backend
+   84  cd backend
+   85  git clone git@gitlab.com:click2sure/v-1/tenants/nda/c2s-api.git .
+   86  git --version
+   87  git config --global user.name "Paul Ndambo"
+   88  git config --global user.email "paul@click2sure.co.za"
+   89  ssh-keygen -t rsa -b 4096
+   90  cat ~/.ssh/id_rsa.pub
+   91  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   92  cd Desktop/Click2Sure
+   93  cd NUTUN/backend
+   94  zsh
+   95  git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+   96  cd Desktop
+   97  cd Click2Sure
+   98  cd Desktop
+   99  cd ../
+  100  setopt EXTENDED_GLOB\nfor rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do\n  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"\ndone
+  101  touch '.zshrc.\n'
+  102  code .zshrc
+  103  cd desktop
+  104  source .zshrc
+  105  cd Desktop
+  106  cd ../
+  107  source ~/.zshrc
+  108  cd Desktop
+  109  cd 
+  110  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+  111  cd Desktop/Click2Sure
+  112  cd NUTUN/backend
+  113  git status
+  114  git log --oneline
+  115  clear
+  116  docker ps
+  117  clear
+  118  python
+  119  python3
+  120  clear
+  121  conda info --envs
+  122  conda
+  123  conda info --envs
+  124  conda create -n 'myenv' python=3.11
+  125  conda info --envs
+  126  cd /Users/apple/anaconda3/envs/
+  127  open .
+  128  code .
+  129  open .
+  130  conda info --envs
+  131  conda activate testenv
+  132  pip freeze
+  133  conda deactivate
+  134  conda create -n "py3env" python=3.7.5
+  135  conda activate testenv
+  136  cd Desktop/Click2Sure/NUTUN/backend
+  137  python manage.py runserver
+  138  conda deactivate
+  139  conda activate py3env
+  140  pip --version
+  141  code .
+  142  pip install -r requirements.txt
+  143  pip install -r requirements/local.txt
+  144  python manage.py runserver
+  145  export IS_LOCAL=1
+  146  python manage.py runserver
+  147  docker ps
+  148  conda deactivate
+  149  docker ps
+  150  cd Desktop
+  151  ls
+  152  mkdir PROJECTS
+  153  cd PROJECTS
+  154  mkdir PERFIN
+  155  cd PERFIN
+  156  mkdir backend
+  157  cd backend
+  158  conda deactivate
+  159  git clone https://github.com/Paulndambo/Personal-Finance-Backend.git .
+  160  code .
+  161  git checkout develop
+  162  git pull origin develop --rebase
+  163  conda deactivate
+  164  brew install postgresql
+  165  cd ../../
+  166  python3 -m venv projectsenv/bin/activate
+  167  python3 -m venv projectsenv
+  168  brew install postgresql@15
+  169  ls
+  170  open .
+  171  python3 -m venv projectsenv
+  172  brew update
+  173  brew install rabbitmq
+  174  brew services list
+  175  source projectsenv/bin/activate
+  176  cd PERFIN/backend
+  177  code .
+  178  pip install ipython
+  179  pip install --upgrade pip
+  180  pip install -r requirements.txt
+  181  python manage.py runserver
+  182  brew services list
+  183  python3
+  184  conda deactivate
+  185  cd Desktop/PROJECTS/
+  186  source projectsenv/bin/activate
+  187  cd PERFIN/backend
+  188  python manage.py runserver
+  189  python manage.py shell
+  190  python manage.py makemigrations
+  191  python manage.py migrate
+  192  python manage.py shell
+  193  python manage.py runserver
+  194  git status
+  195  git add .
+  196  git commit -m"profiles added"
+  197  git push origin develop
+  198  cd Desktop/Click2Sure
+  199  ls
+  200  cd NUTUN/backend
+  201  conda deactivate
+  202  git pull origin feature/members-onboarding-api --rebase
+  203  conda deactivate
+  204  cd Desktop/PROJECTS
+  205  ls
+  206  mkdir STOREFRONT
+  207  cd STOREFRONT
+  208  git clone https://github.com/Paulndambo/Coding-With-Mosh-Django.git .
+  209  code .
+  210  conda deactivate
+  211  cd Desktop/PROJECTS
+  212  ls
+  213  mkdir INSURANCE
+  214  cd INSURANCE/
+  215  mkdir backend
+  216  cd backend/
+  217  git clone https://github.com/Paulndambo/Insurance-SaaS-API.git .
+  218  code .
+  219  conda deactivate
+  220  cd Desktop/PROJECTS
+  221  ls
+  222  cd INSURANCE/backend
+  223  git pull origin main --rebase
+  224  conda deactivate
+  225  cd Desktop/PROJECTS
+  226  source projectsenv/bin/ativate
+  227  ls
+  228  source projectsenv/bin/activate
+  229  cd INSURANCE/backend
+  230  pip install -r requirements.txt
+  231  python manage.py runserver
+  232  pip install djoser
+  233  python manage.py runserver
+  234  python manage.py migrate
+  235  python manage.py runserver
+  236  conda deactivate
+  237  cd Desktop/Click2Sure
+  238  ls
+  239  cd NUTUN/backend
+  240  git branh
+  241  git branch
+  242  git pull origin feature/members-onboarding-api
+  243  code .
+  244  cd ../
+  245  cd NDA
+  246  ls
+  247  mkdir frontend
+  248  cd frontend
+  249  git clone git@gitlab.com:click2sure/v-1/tenants/nda/c2s-client.git .
+  250  conda deactivate
+  251  cd Desktop/Click2Sure/NUTUN
+  252  ls
+  253  cd backend
+  254  git pull origin feature/members-onboarding-api
+  255  conda activate py3env
+  256  conda deactivate
+  257  cd Desktop/PROJECTS
+  258  source projectsenv/bin/activate
+  259  cd INSURANCE/backend
+  260  git status
+  261  git add .
+  262  git status
+  263  git commit -m'authentication added'
+  264  git push origin main
+  265  code .
+  266  python manage.py runserver
+  267  git status
+  268  git checkout fullstack
+  269  git stash
+  270  git checkout fullstack
+  271  git merge main
+  272  python manage.py runserver
+  273  python manage.py createsuperuser
+  274  python manage.py runserver
+  275  python manage.py shell
+  276  python manage.py runserver
+  277  blaack .
+  278  black .
+  279  python manage.py runserver
+  280  git status
+  281  git add .
+  282  git commit -m'permissions added'
+  283  git push origin fullstack
+  284  conda deactivate
+  285  cd Desktop/Click2Sure
+  286  ls
+  287  cd NUTUN/backend
+  288  ls
+  289  git status
+  290  code .
+  291  git stash
+  292  git pull origin feature/members-onboarding-api --rebase
+  293  git status
+  294  git commit -m"members upload methods refactoring p1"
+  295  git add .
+  296  git commit -m"members upload methods refactoring p1"
+  297  git push origin feature/members-onboarding-api
+  298  git pull origin feature/members-onboarding-api --rebase
+  299  conda deactivate
+  300  conda activate py3env
+  301  pip install drf_yasg
+  302  export IS_LOCAL=1
+  303  python manage.py runserver
+  304  pip install django=2.2
+  305  pip install django==2.2
+  306  python manage.py runserver
+  307  pip install -r requirements.txt
+  308  pip install -r requirements/local.txt
+  309  python manage.py runserver
+  310  pip install django==2.3
+  311  pip install django==2.2.28
+  312  git status
+  313  git add .
+  314  git commit -m'telesales onboarding updated'
+  315  git pull origin feature/members-onboarding-api --rebase
+  316  git push origin feature/members-onboarding-api
+  317  conda deactivate
+  318  cd Desktop/PROJECTS
+  319  source projectsenv/bin/activate
+  320  cd INSURANCE/backend
+  321  code .
+  322  black .
+  323  python manage.py runserver
+  324  conda deactivate
+  325  cd Desktop/Click2Sure
+  326  cd NUTUN/backend
+  327  git pull origin feature/members-onboarding-api --rebase
+  328  code .
+  329  cd ../
+  330  cd ../NDA/backend
+  331  git checkout develop-copy
+  332  git pull origin develop-copy --rebase
+  333  code .
+  334  conda deactivate
+  335  cd Desktop
+  336  ls
+  337  mkdir PAULNDAMBO
+  338  cd PAULNDAMBO
+  339  mkdir ReactNative
+  340  ls
+  341  cd ReactNative
+  342  ls
+  343  npx create-expo-app HelloWorld 
+  344  conda deactivate
+  345  cd Desktop/Click2Sure
+  346  ls
+  347  cd NUTUN
+  348  ls
+  349  cd backend
+  350  git status
+  351  git stash
+  352  git pull origin feature/members-onboarding-api --rebase
+  353  code .
+  354  cd ../../
+  355  ls
+  356  cd GETSURE
+  357  ls
+  358  mkdir backend
+  359  cd backend
+  360  git clone git@gitlab.com:click2sure/v-1/tenants/getsure/c2s-api.git .
+  361  git branch
+  362  git checkout develop
+  363  git pull origin develop --rebase
+  364  code .
+  365  conda deactivate
+  366  cd Desktop/Click2Sure
+  367  ls
+  368  cd NUTUN/backend
+  369  conda activate py3env
+  370  ls
+  371  git status
+  372  code .
+  373  conda deactivate
+  374  cd Desktop/PROJECTS
+  375  ls
+  376  source projectsenv/bin/activate
+  377  cd INSURANCE/backend
+  378  ls
+  379  code .
+  380  git status
+  381  python manage.py runserver
+  382  python manage.py shell
+  383  python manage.py runserver
+  384  python manage.py shell
+  385  python manage.py runserver
+  386  code .
+  387  conda deactivate
+  388  cd desktop
+  389  ls
+  390  cd PAULNDAMBO
+  391  ls
+  392  mkdir Python
+  393  cd Python
+  394  code .
+  395  /usr/local/bin/python3 /Users/apple/Desktop/PAULNDAMBO/Python/tuples.py
+  396  brew service list
+  397  brew services list
+  398  cd ../../Click2Sure/NUTUN/backend
+  399  git status
+  400  git stash
+  401  git pull origin feature/members-onboarding-api --rebase
+  402  code .
+  403  conda deactivate
+  404  brew services start postgresql@15
+  405  psql -u postgres
+  406  locate psql | grep /bin
+  407  sudo mkdir -p /etc/paths.d && \\n  echo /Applications/Postgres.app/Contents/Versions/latest/bin \\n  | sudo tee /etc/paths.d/postgresapp
+  408  psql
+  409  conda deactivate
+  410  psql
+  411  code .zshrc
+  412  psql
+  413  code .zshrc
+  414  export PATH=$PATH:/Library/PostgreSQL/15/bin
+  415  exec zsh -l
+  416  psql
+  417  export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
+  418  psql
+  419  psql -u postgres
+  420  psql --help
+  421  psql -U postgres
+  422  psql -d postgres -U postgres
+  423  sudo systemctl status postgresql
+  424  sudo service postgresql start
+  425  brew services stop postgresql
+  426  brew services stop postgresql@15
+  427  rm /usr/local/var/postgres/postmaster.pid
+  428  brew services start postgresql@15
+  429  brew services
+  430  pgrep -u postgres -fa -- -D
+  431  psql -d postgres -U postgres
+  432  sudo su - postgres
+  433  sudo su - apple
+  434  conda deactivate
+  435  psql -d postgres -U apple
+  436  psql
+  437  conda activate
+  438  psql
+  439  conda deactivate
+  440  export PATH=$PATH:/Library/PostgreSQL/15/bin
+  441  exec zsh -l
+  442  psql
+  443  brew uninstall postgresql@15
+  444  brew services list
+  445  cd Desktop/Click2Sure/NUTUN/backend
+  446  git status
+  447  git add .
+  448  git commit -m'failed uploads storage model added'
+  449  git push origin feature/members-onboarding-api
+  450  conda deactivate
+  451  docker exec -it postgres-R4w8 psql -U postgres
+  452  cd Desktop
+  453  conda deactivate
+  454  docker ps
+  455  cat nutun.sql | docker exec -i postgres-R4w8 psql -U postgres
+  456  cat nutun.tar | docker exec -i postgres-R4w8 psql -U postgres -d nutun
+  457  docker pull  dpage/pgadmin4:latest
+  458  docker run -p 8001:80 \\n    -e 'PGADMIN_DEFAULT_EMAIL=kadabo@gmail.com' \\n    -e 'PGADMIN_DEFAULT_PASSWORD=1234' \\n    -d dpage/pgadmin4
+  459  docker network ps
+  460  docker network ls
+  461  docker network create kadabo
+  462  docker network ls
+  463  docker run -p 5432:5432 -d --network=kadabo --name postgresql postgres 
+  464  docker run -p 5432:5432 -d -e POSTGRES_PASSWORD=1234 --network=kadabo --name postgresql postgres 
+  465  docker run -p 8001:80 \\n    -e 'PGADMIN_DEFAULT_EMAIL=kadabo@gmail.com' \\n    -e 'PGADMIN_DEFAULT_PASSWORD=1234' \\n    -d dpage/pgadmin4
+  466  docker run -p 8001:80 \\n    -e 'PGADMIN_DEFAULT_EMAIL=kadabo@gmail.com' \\n    -e 'PGADMIN_DEFAULT_PASSWORD=1234' \\n    --network=kadabo \\n    --name pgadmin\n    -d dpage/pgadmin4
+  467  clear
+  468  docker run -p 8001:80 -e 'PGADMIN_DEFAULT_EMAIL=kadabo@gmail.com' -e 'PGADMIN_DEFAULT_PASSWORD=1234' --network=kadabo --name pgadmin -d dpage/pgadmin4
+  469  cat nutun.tar | docker exec -i postgres-R4w8 psql -U postgres -d nutun
+  470  cat nutun.tar | docker exec -i postgresql psql -U postgres -d nutun
+  471  conda deactivate
+  472  cd Desktop/PAULNDAMBO/Python
+  473  code .
+  474  /usr/local/bin/python3 /Users/apple/Desktop/PAULNDAMBO/Python/lists.py
+  475  conda deactivate
+  476  cd Desktop/Click2Sure/NUTUN/backend
+  477  git status
+  478  git stash
+  479  git pull origin feature/members-onboarding-api --rebase
+  480  code .
+  481  conda activate py3env
+  482  export IS_LOCAL=1
+  483  conda deactivate
+  484  docker ps
+  485  python manage.py runserver
+  486  /usr/local/bin/python3 /Users/apple/Desktop/PAULNDAMBO/Python/recursion.py
+  487  /usr/local/bin/python3 /Users/apple/Desktop/PAULNDAMBO/Python/selection_sort.py
+  488  /usr/local/bin/python3 /Users/apple/Desktop/PAULNDAMBO/Python/heap_sort_ascending.py
+  489  /usr/local/bin/python3 /Users/apple/Desktop/PAULNDAMBO/Python/heap_sort_descending.py
+  490  /usr/local/bin/python3 /Users/apple/Desktop/PAULNDAMBO/Python/bubble_sort.py
+  491  code .
+  492  python manage.py makemigrations
+  493  docker ps
+  494  python manage.py migrate
+  495  python manage.py runserver
+  496  git status
+  497  git add .
+  498  git commit -m'pricing methods updated'
+  499  git push origin feature/members-onboarding-api
+  500  cd ../
+  501  ls
+  502  mkdir scripts
+  503  cd scripts
+  504  git clone git@gitlab.com:click2sure/v-1/tenants/nutuncover/nutun-import-scripts.git .
+  505  git checkout dependents-script
+  506  git pull origin dependent-script --rebase
+  507  git pull origin dependents-script --rebase
+  508  code .
+  509  cd ../backend
+  510  git pull origin feature/members-onboarding-api --rebase
+  511  git status
+  512  git stash
+  513  git pull origin feature/members-onboarding-api --rebase
+  514  git status
+  515  git stash
+  516  git pull origin feature/members-onboarding-api --rebase
+  517  conda deactivate
+  518  brew install kubernetes-cli
+  519  conda deactivate
+  520  cd Desktop/Click2Sure/NUTUN/backend
+  521  code .
+  522  kubectl
+  523  kubectl config
+  524  kubectl config view
+  525  gke-gcloud-auth-plugin --version\n
+  526  brew install --cask google-cloud-sdk
+  527  gke-gcloud-auth-plugin --version\n
+  528  gcloud components install kubectl\n
+  529  kubectl version\n
+  530  gcloud container clusters get-credentials kadabo --region asia-south2 --project midyear-calling-370007
+  531  gcloud auth login
+  532  gcloud container clusters get-credentials kadabo --region asia-south2 --project midyear-calling-370007
+  533  kubectl get namespaces
+  534  kubectl config get-contexts
+  535  cd Desktop
+  536  ls
+  537  mkdir DevOps
+  538  cd DevOps
+  539  mkdir todo-gke
+  540  cd todo-gke
+  541  code .
+  542  kubectl apply -f deployment.yaml
+  543  kubectl apply -f service.yaml
+  544  kubectl get pods
+  545  kubectl exec --stdin --tty todo-backend-896b667c-n7smj -- bash
+  546  kubectl exec --stdin --tty todo-backend-896b667c-n7smj -- sh
+  547  ls
+  548  kubectl get deploy
+  549  kubectl get svc
+  550  ls
+  551  code .
+  552  helm repo add codecentric https://codecentric.github.io/helm-charts
+  553  brew install helm
+  554  kubectl apply -f deployment.yaml
+  555  helm repo add codecentric https://codecentric.github.io/helm-charts
+  556  helm repo update
+  557  helm install mailhog codecentric/mailhog --set service.type=LoadBalancer
+  558  kubectl apply -f deployment.yaml
+  559  kubectl apply -f service.yaml
+  560  kubectl rollout status email-service-backend
+  561  kubectl rollout status deployment email-service-backend
+  562  kubectl set image deployment email-service-backend 40781998/email-service-backend:latest
+  563  kubectl set image email-service-backend 40781998/email-service-backend:latest
+  564  kubectl set image deployment/email-service-backend 40781998/email-service-backend:latest
+  565  kubectl set image deployment/email-service-backend email-service-backend=40781998/email-service-backend:latest
+  566  code .
+  567  kubectl apply -f deployment.yaml
+  568  kubectl apply -f deployment-config.yaml
+  569  kubectl apply -f deployment.yaml
+  570  kubectl apply -f mailhog-config.yaml
+  571  kubectl apply -f deployment.yaml
+  572  kubectl get pods
+  573  kubectl exec --stdin --tty email-service-backend-5b9574669-v6jqt -- sh
+  574  kubectl apply -f ingress.yaml
+  575  kubectl get svc
+  576  kubectl get ingress
+  577  helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+  578  helm repo update
+  579  helm install app-ingress ingress-nginx/ingress-nginx
+  580  clear
+  581  helm install app-ingress ingress-nginx/ingress-nginx `\n     --namespace ingress `\n     --create-namespace `\n     --set controller.replicaCount=2 `\n     --set controller.nodeSelector."beta\.kubernetes\.io/os"=linux `\n     --set defaultBackend.nodeSelector."beta\.kubernetes\.io/os"=linux\n
+  582  helm install app-ingress ingress-nginx/ingress-nginx
+  583  kubectl get ingress
+  584  kubectl get svc
+  585  helm install app-ingress ingress-nginx/ingress-nginx
+  586  kubectl get svc
+  587  kubectl apply -f ingress.yaml
+  588  kubectl apply -f deployment.yaml
+  589  kubectl get deploy
+  590  kubectl get pods
+  591  kubectl delete pod email-service-backend-5b9574669-v6jqt
+  592  kubectl get pods
+  593  kubectl exec --stdin --tty email-service-backend-5b9574669-nj7j4 -- bash
+  594  conda deactivate
+  595  cd desktop
+  596  ls
+  597  cd DevOps
+  598  ls
+  599  cd todo-gke
+  600  ls
+  601  code .
+  602  kubectl apply -f postgres-configmap.yaml
+  603  kubectl create -f postgres-storage.yaml 
+  604  kubectl apply -f postgres-storage.yaml
+  605  kubectl apply -f postgres-configmap.yaml
+  606  kubectl apply -f deployment.yaml

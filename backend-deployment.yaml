@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: email-service-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: email-service-backend
+  template:
+    metadata:
+      labels:
+        app: email-service-backend
+    spec:
+      containers:
+      - name: email-service-backend
+        image: 40781998/email-service-backend:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "100m"
+        ports:
+        - containerPort: 8000
+
+        env:
+          - name: EMAIL_HOST
+            valueFrom:
+              configMapKeyRef:
+                name: mailhog-config
+                key: mailhog-url
+          - name: POSTGRES_HOST
+            valueFrom:
+              configMapKeyRef:
+                name: postgres-config
+                key: POSTGRES_HOST
+          - name: POSTGRES_USER
+            valueFrom:
+              configMapKeyRef:
+                name: postgres-config
+                key: POSTGRES_USER
+          - name: POSTGRES_PASSWORD
+            valueFrom:
+              configMapKeyRef:
+                name: postgres-config
+                key: POSTGRES_PASSWORD
+          - name: POSTGRES_DB
+            valueFrom:
+              configMapKeyRef:
+                name: postgres-config
+                key: POSTGRES_DB
+              
+

@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: mailhog-ingress
+  labels:
+    name: mailhog-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: mailhog.34.126.219.246.nip.io
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: mailhog
+            port: 
+              number: 8025
