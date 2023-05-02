@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mailhog
+spec:
+  selector:
+    matchLabels:
+      app: mailhog
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: mailhog
+    spec:
+      containers:
+      - name: mailhog
+        image: mailhog/mailhog:v1.0.0
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "100m"
+        ports:
+        - containerPort: 1025
+          name: smtp
+        - containerPort: 8025
+          name: http

@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mailhog-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: mailhog
+  ports:
+  - name: smtp
+    port: 1025
+    targetPort: smtp
+  - name: http
+    port: 8025
+    targetPort: http
